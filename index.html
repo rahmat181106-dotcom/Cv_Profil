@@ -22,47 +22,26 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
-                    <li class="nav-link"><a class="nav-link" href="#skills">Keahlian & Tabel</a></li>
-                    <li class="nav-link"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Keahlian & Tabel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Galeri Foto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Header / Home with 2a. Carousel -->
-    <header id="home" class="container mt-5 pt-5">
-        <div id="portfolioCarousel" class="carousel slide shadow rounded overflow-hidden" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
+    <!-- Header Pengganti Carousel (Banner Statis di Atas) -->
+    <header id="home" class="container mt-5 pt-4">
+        <div class="p-5 mb-4 bg-dark text-white rounded-3 shadow text-center position-relative overflow-hidden hero-banner">
+            <div class="container-fluid py-3">
+                <h1 class="display-5 fw-bold">Selamat Datang di Dashboard Portofolio Saya</h1>
+                <p class="col-md-8 fs-4 mx-auto mt-3">Mahasiswa Teknologi Rekayasa Perangkat Lunak | Politeknik Manahijul Huda</p>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80" class="d-block w-100 carousel-img" alt="Banner 1">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
-                        <h2>Selamat Datang di Dashboard Portofolio Saya</h2>
-                        <p>Mahasiswa Teknologi Rekayasa Perangkat Lunak</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80" class="d-block w-100 carousel-img" alt="Banner 2">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
-                        <h2>Pengembang Web & Pecinta Teknologi</h2>
-                        <p>Bersemangat dalam coding, desain, dan pengembangan sistem.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
         </div>
     </header>
 
     <!-- Main Content / Dashboard -->
-    <main class="container my-5">
+    <main class="container my-4">
         
         <!-- Toggle Button untuk Efek jQuery -->
         <div class="row mb-4">
@@ -186,6 +165,41 @@
                 </div>
             </section>
         </div>
+
+        <!-- Galeri Foto Pribadi di Bagian Bawah -->
+        <section id="gallery" class="row mt-4 mb-5">
+            <div class="col-12">
+                <div class="card shadow border-0 p-4">
+                    <h4 class="fw-bold mb-4 text-center">Galeri Foto Pribadi & Aktivitas</h4>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm h-100">
+                                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" class="card-img-top gallery-img rounded" alt="Foto 1">
+                                <div class="card-body text-center">
+                                    <p class="card-text text-muted small">Aktivitas Pemrograman & Coding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm h-100">
+                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" class="card-img-top gallery-img rounded" alt="Foto 2">
+                                <div class="card-body text-center">
+                                    <p class="card-text text-muted small">Pengembangan Sistem Web</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm h-100">
+                                <img src="https://via.placeholder.com/600x400" class="card-img-top gallery-img rounded" alt="Foto 3">
+                                <div class="card-body text-center">
+                                    <p class="card-text text-muted small">Dokumentasi Pribadi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
