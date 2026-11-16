@@ -3,8 +3,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.carousel-img {
-    height: 400px;
+.hero-banner {
+    background: linear-gradient(135deg, #212529, #343a40);
+}
+
+.gallery-img {
+    height: 220px;
     object-fit: cover;
 }
 
