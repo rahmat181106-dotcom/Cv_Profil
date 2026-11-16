@@ -1,0 +1,13 @@
+body {
+    padding-top: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
